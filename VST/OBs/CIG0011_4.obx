@@ -1,0 +1,222 @@
+IMPEX.VERSION "2.0"
+name                             "CIG0011_4"
+userComments                     ""
+InstrumentComments               ""
+userPriority                     "2"
+type                             "O"
+
+
+
+
+
+
+finding_chart_list               "cig0011.jpeg "
+
+
+
+
+TARGET.NAME                      "CIG0011"
+propRA                           "0.000000"
+propDec                          "0.000000"
+diffRA                           "0.000000"
+diffDec                          "0.000000"
+equinox                          "J2000"
+epoch                            "2000.0"
+ra                               " 00:14:33.880"
+dec                              "-00:43:40.400"
+objectClass                      "Unknown"
+
+
+CONSTRAINT.SET.NAME              "CIG0011"
+seeing                           "2.0"
+sky_transparency                 "Photometric"
+air_mass                         "2.0"
+fractional_lunar_illumination    "0.3"
+moon_angular_distance            "60"
+twilight                         "0"
+
+
+OBSERVATION.DESCRIPTION.NAME "CIG0011"
+instrument "OMEGACAM"
+
+
+
+
+ACQUISITION.TEMPLATE.NAME "OMEGACAM_img_acq"
+TEL.ROT.OFFANGLE  "0"
+TEL.GS1.ALPHA     "0"
+TEL.GS1.DELTA     "0"
+TEL.GS1.MAG       "12"
+TEL.GS2.ALPHA     "0"
+TEL.GS2.DELTA     "0"
+TEL.GS2.MAG       "12"
+TEL.ADC.TYPE      "NONE"
+INS.FILT.NAME     "r_SDSS"
+OCS.AG.START      "F"
+OCS.IA.START      "T"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "0.0"
+TEL.TARG.OFFSETDELTA     "0.0"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-37.8"
+TEL.TARG.OFFSETDELTA     "45.61"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "680.9"
+TEL.TARG.OFFSETDELTA     "523.3"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-72.1"
+TEL.TARG.OFFSETDELTA     "112.2"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "1389.3"
+TEL.TARG.OFFSETDELTA     "-14.4"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-43.2"
+TEL.TARG.OFFSETDELTA     "87.0"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "340.7"
+TEL.TARG.OFFSETDELTA     "-673.9"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "39.6"
+TEL.TARG.OFFSETDELTA     "-94.2"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-728.2"
+TEL.TARG.OFFSETDELTA     "-471.0"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-1.69"
+TEL.TARG.OFFSETDELTA     "92.4"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_cal_bias"
+SEQ.NEXPO              "1"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-576.5"
+TEL.TARG.OFFSETDELTA     "-679.6"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "46.8"
+TEL.TARG.OFFSETDELTA     "-110.4"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-538.8"
+TEL.TARG.OFFSETDELTA     "-789.7"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "-39.6"
+TEL.TARG.OFFSETDELTA     "116.7"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "1274.0"
+TEL.TARG.OFFSETDELTA     "192.9"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
+TEMPLATE.NAME "OMEGACAM_img_obs_offset"
+DET1.WIN1.UIT1           "154"
+SEQ.NEXPO                "1"
+SEQ.RET2ORIG             "F"
+TEL.TARG.OFFSETALPHA     "64.9"
+TEL.TARG.OFFSETDELTA     "-101.4"
+INS.FILT.NAME            "r_SDSS"
+OCS.STRTG                "Deep"
+
+
